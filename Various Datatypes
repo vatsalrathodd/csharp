@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Giraffe
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // <-------------- DATATYPES -------------------> 
+
+            string phrase = "Hell World";
+            char grade = 'A';
+            int age = 100;
+            double cgpa = 8.51;
+            bool isMale = true;
+
+            Console.WriteLine(isMale);
+
+            Console.ReadLine();
+        }
+    }
+}
