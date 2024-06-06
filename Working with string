@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Giraffe
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // <-------------- WORKING WITH STRINGS -------------------> 
+          
+            string text = "Welcome to Earth" + " Newbie";
+
+            Console.WriteLine("Hey there " + text);
+            Console.WriteLine(text.Contains("Newbie"));
+            Console.WriteLine(text.IndexOf("Newbie"));
+            Console.WriteLine(text.Substring(18, 3));
+            Console.WriteLine("Hello\"World");
+
+            Console.ReadLine();
+        }
+    }
+}
