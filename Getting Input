@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Giraffe
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // <-------------- GETTING INPUT ------------------->
+
+            // Console.Write() ---> aa next line ma nai lai jai whereas
+            // Conaole.WriteLine()  ---> this will take program to next line
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name);
+
+            int age = Console.Read();
+            Console.WriteLine("Your age is " + age);
+
+            Console.ReadLine();
+        }
+    }
+}
