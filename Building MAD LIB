@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Giraffe
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            // <-------------- BUILDING MAD LIB ------------------->
+
+            string color, noun, celeb;
+            Console.Write("Enter color: ");
+            color = Console.ReadLine();
+
+            Console.Write("Enter noun: ");
+            noun = Console.ReadLine();
+
+            Console.Write("Enter celeb: ");
+            celeb = Console.ReadLine();
+
+            Console.WriteLine("Roses are " + color);
+            Console.WriteLine(noun + " are blue");
+            Console.WriteLine("I love " + celeb);
+
+            Console.ReadLine();
+        }
+    }
+}  
