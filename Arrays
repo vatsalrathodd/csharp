@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Giraffe
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            //                      <-------------- ARRAYS ------------------->
+            
+            int []arr = { 1, 2, 3 };
+            string[] friends = new string[5]; // anathi initialise thase length of array or total elements
+            for(int i=0; i<arr.Length; i++) {
+                Console.Write(arr[i]);
+                Console.Write(' ');
+            }
+
+            Console.WriteLine("Press Enter to exit...");
+            Console.ReadLine();
+        }
+    }
+}
