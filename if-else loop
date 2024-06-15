@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Giraffe
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //               <-------------- IF-ELSE LOOP ------------------->
+
+            bool isMale = true;
+            bool isTall = false;
+            if (isMale && isTall)
+            {
+                Console.WriteLine("I am Male and my height is 6'0 ft");
+            }
+
+            else
+            {
+                Console.WriteLine("I am not Male");
+            }
+    }
+}
+}
