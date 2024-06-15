@@ -1,0 +1,56 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Giraffe
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            sayHi("Vatsal",22);
+            sayHi("Bhavin", 50);
+            sayHi("Jeet", 100);
+
+            Console.WriteLine(Cube(5));
+
+            Console.WriteLine(getMax(4, 5));
+
+            Console.WriteLine("Press Enter to exit...");
+            Console.ReadLine();
+        }
+
+        static void sayHi(string name, int age)
+        {
+            Console.WriteLine("My name is " + name + " and age is " + age);
+        }
+
+        static int Cube(int num)
+        {
+            int result = num * num * num;
+            return result;
+        }
+
+        static int getMax(int x, int y)
+        {
+            int result;
+
+            if (x > y)
+            {
+                result = x;
+            }
+            else if (y > x)
+            {
+                result = y;
+            }
+            else 
+            {
+                result = x;
+            }
+            return result;
+        }
+    }
+}
